@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Outfit:wght@400;700&family=Poppins:wght@500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  display: grid;
+  place-content: center;
+
+  background-color: #d4e1ee;
+  height: 100vh;
+}
+.qr-container {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+}
+
+.qr-img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.qr-text {
+  text-align: center;
+  margin-top: 20px;
+  /* padding: 10px; */
+}
+#title {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.qr-text p {
+  font-size: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 90%;
+  color: hsl(220, 15%, 55%);
+}
+
+/*=========================FOOTER===========================*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
